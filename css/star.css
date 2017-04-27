@@ -1,0 +1,197 @@
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 168.75px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 120px;
+  }
+}
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 112.5px;
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+span,
+img,
+div,
+input,
+i,
+dl,
+dt,
+dd,
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.fix {
+  position: fixed;
+}
+.clear {
+  overflow: hidden;
+}
+.clearfix:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.wid {
+  width: 100%;
+}
+.dis-none {
+  display: none;
+}
+.box-s {
+  box-sizing: border-box;
+}
+.header,
+.footer {
+  display: none;
+}
+.center {
+  padding-top: 0;
+}
+.s_header {
+  width: 100%;
+  position: relative;
+  height: 0.83rem;
+  background-color: #394a5e;
+  line-height: 0.83rem;
+  text-align: center;
+}
+.s_header:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.s_header p {
+  font-size: 0.34rem;
+  color: #fff;
+}
+.s_header img {
+  width: 0.42rem;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.28rem;
+}
+.s_lis li {
+  width: 6.40rem;
+  height: 1.15rem;
+  border-top: solid 0.02rem #f2f2f2;
+  border-bottom: solid 0.02rem #f2f2f2;
+  line-height: 1.15rem;
+  background: url(../img/star/sh_2.png) no-repeat;
+  background-position: 6rem 0.44rem;
+}
+.s_lis li img {
+  float: left;
+  width: 0.76rem;
+  padding-left: 0.25rem;
+  padding-top: 0.2rem;
+}
+.s_lis li p {
+  float: left;
+  padding-left: 0.25rem;
+  font-size: 0.27rem;
+  color: #b3b3b3;
+}
+.s_lis li p.xiangmu {
+  color: #000;
+}
+.s_footer {
+  height: 0.92em;
+  background-color: #394a5e;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.s_footer:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.s_footer li {
+  float: left;
+  padding: 0 0.5rem;
+  width: 0.6rem;
+  text-align: center;
+}
+.s_footer li img {
+  width: 0.44rem;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.s_footer li p {
+  font-size: 0.2rem;
+  color: #707c8d;
+}
+.s_footer li p.fff {
+  color: #fff;
+}

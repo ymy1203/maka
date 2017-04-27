@@ -1,0 +1,161 @@
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 168.75px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 120px;
+  }
+}
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 112.5px;
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+span,
+img,
+div,
+input,
+i,
+dl,
+dt,
+dd,
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.fix {
+  position: fixed;
+}
+.clear {
+  overflow: hidden;
+}
+.clearfix:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.wid {
+  width: 100%;
+}
+.dis-none {
+  display: none;
+}
+.box-s {
+  box-sizing: border-box;
+}
+.header .add_btn {
+  display: none;
+}
+.footer {
+  display: none;
+}
+.center {
+  width: 100%;
+}
+.center .title {
+  text-align: center;
+}
+.center .title p {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #5f5f5f;
+  line-height: 0.36rem;
+  padding-top: 0.17rem;
+}
+.center ul {
+  margin-left: 0.1em;
+  box-sizing: border-box;
+}
+.center ul:after {
+  content: " ";
+  clear: both;
+  height: 0;
+  display: block;
+}
+.center li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.center li img {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 1.71em;
+  height: 2.42em;
+  border: solid 0.01rem #8d8d8d;
+}
+.center li p {
+  height: 0.48rem;
+  padding-left: 0.7rem;
+  margin-top: 0.05rem;
+  text-align: left;
+  width: 2rem;
+  font-size: 0.18rem;
+  line-height: 0.24rem;
+}

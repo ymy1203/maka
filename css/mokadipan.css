@@ -1,0 +1,82 @@
+.header .add_btn {
+  display: none;
+}
+.footer {
+  display: none;
+}
+.katong .imgbox {
+  overflow: hidden;
+  margin-top: 0.62rem;
+}
+.katong img {
+  width: 1.07rem;
+  display: block;
+  float: left;
+  margin-left: 0.77rem;
+  position: absolute;
+  top: 1.52rem;
+  z-index: 999;
+}
+.katong .ps {
+  float: left;
+  padding-left: 1.9rem;
+}
+.katong .ps p {
+  font-size: 0.2rem;
+  color: #575757;
+}
+.katong textarea {
+  margin: 0 auto;
+  margin-top: 0.15rem;
+  display: block;
+  height: 2.5rem;
+  width: 5.1rem;
+  border: solid 0.02rem #afafaf;
+  background-color: #dfdfdf;
+  border-radius: 0.1rem;
+  overflow: hidden;
+  resize: none;
+}
+.katong .submit {
+  margin: 0 auto;
+  margin-top: 0.82em;
+  width: 5.12rem;
+  height: 0.68rem;
+  background-color: #57b4a9;
+  font-size: 0.3rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.68rem;
+  border-radius: 0.1rem;
+}
+.dipan_footer {
+  position: fixed;
+  width: 100%;
+  height: .98rem;
+  border-top: solid 0.02rem #d5d5d5;
+  background: #f6f7fb;
+  font-size: 0.18rem;
+  bottom: 0;
+  left: 0;
+}
+.dipan_footer > div {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.dipan_footer > div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.dipan_footer .foo_l img {
+  width: .42rem;
+  padding-top: 0.21rem;
+}
+.dipan_footer .foo_r p {
+  color: #40b89f;
+}
+.dipan_footer .foo_r img {
+  padding-top: 0.17rem;
+  width: .35rem;
+}

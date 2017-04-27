@@ -1,0 +1,153 @@
+@import "../global";
+.header {
+    .header_title {
+        .clear;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .add_btn {
+        font-style: normal;
+        font-size: 0.24rem;
+        color: #fff;
+        line-height: 0.73rem;
+        a {
+            display: none;
+        }
+        p {
+            .f-r;
+        }
+    }
+}
+
+.center {
+    .dati_box {
+        border-top: solid 0.02rem #459186;
+        >ul {
+            // transition: all 0.5s;
+            >p {
+                height: 0.68rem;
+                border-bottom: solid 0.02rem #459186;
+                font-size: 0.3rem;
+                line-height: 0.68rem;
+                color: #fff;
+                padding-left: 0.2rem;
+                background: #56b4a7;
+                >span {
+                    .f-r;
+                    display: inline-block;
+                    width: 0.3rem;
+                    height: 0.2rem;
+                    margin-right: 0.2rem;
+                    margin-top: 0.25rem;
+                    background: url(../img/images/jianbaise.png) no-repeat;
+                    transform: rotate(180deg);
+                    transition: all 0.2s;
+                }
+                .rotate {
+                    transform: rotate(0deg);
+                }
+            }
+            >li {
+                // transition: all 0.5s;
+                color: #666;
+                background: #e5e5e5;
+                >dt {
+                    font-size: 0.24rem;
+                    height: 0.53rem;
+                    border-bottom: solid 0.02rem #c8c8c8;
+                    line-height: 0.53rem;
+                    padding-left: 0.39rem;
+                    span {
+                        .f-r;
+                        display: inline-block;
+                        width: 0.25rem;
+                        height: 0.15rem;
+                        margin-right: 0.2rem;
+                        margin-top: 0.20rem;
+                        background: url(../img/images/jianheise.png) no-repeat;
+                        transform: rotate(180deg);
+                        transition: all 0.2s;
+                    }
+                    .rotate {
+                        transform: rotate(0deg);
+                    }
+                }
+                .xiti_box {
+                    widows: 6.4rem;
+                    background: #fff;
+                    padding-bottom: 0.25rem;
+                    .clearfix;
+                    >p {
+                        font-size: 0.24rem;
+                        color: #666;
+                        line-height: 0.64rem;
+                        padding-left: 0.6rem;
+                    }
+                    .a_box {
+                        // height: 0.68rem;
+                        .clearfix;
+                        padding-left: 0.3rem;
+                        a {
+                            .rel;
+                            .clear;
+                            display: block;
+                            float: left;
+                            width: 0.52rem;
+                            height: 0.53rem;
+                            border: solid 0.02rem #000;
+                            line-height: 0.53rem;
+                            text-align: center;
+                            color: #000;
+                            font-size: 0.24rem;
+                            border-radius: 0.05rem;
+                            margin: 0.05rem 0.3rem 0.1rem 0.3rem;
+                            &:hover {
+                                background-color: #56b4a7;
+                            }
+                            span{
+                                .abs;
+                                display:block;
+                                width:0.5rem;
+                                height: 0.5rem;
+                                top:-0.25rem;
+                                left:0.38rem;
+                                transform:rotate(135deg);
+                            }
+                            .spanback{
+                                background:#04BAC8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//答题
+.guanbi {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.6);
+    img {
+        width: 4.91rem;
+        border-radius: 0.15rem;
+        margin-left: 0.7rem;
+        margin-top: 3.85rem;
+    }
+    >div {
+        position: absolute;
+        height: 0.8rem;
+        top: 5.95rem;
+    }
+    .wuti {
+        width: 4.91rem;
+        left: 0.7rem;
+    }
+}
